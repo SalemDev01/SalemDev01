@@ -165,14 +165,13 @@ Marketplace with print-on-demand → **[rishattadwin.vercel.app](https://rishatt
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SalemDev01&show_icons=true&theme=react&hide_border=true&bg_color=0d1117&title_color=05674B&icon_color=0A8F6B&count_private=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SalemDev01&layout=compact&theme=react&hide_border=true&bg_color=0d1117&title_color=05674B&langs_count=8"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SalemDev01&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=0A8F6B&icon_color=0A8F6B&text_color=c9d1d9&count_private=true&cache_seconds=86400" alt="Salem's GitHub Stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SalemDev01&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=0A8F6B&text_color=c9d1d9&langs_count=8&cache_seconds=86400" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SalemDev01&theme=react&hide_border=true&background=0d1117&ring=05674B&fire=0A8F6B&currStreakLabel=05674B"/>
+  <img src="https://streak-stats.demolab.com/?user=SalemDev01&theme=dark&hide_border=true&background=0d1117&ring=0A8F6B&fire=0A8F6B&currStreakLabel=0A8F6B&sideLabels=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
 </p>
-
 ---
 
 <!-- ====================== ACTIVITY GRAPH ====================== -->
