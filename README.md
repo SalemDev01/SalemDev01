@@ -130,14 +130,7 @@ const salem = {
 <!-- ====================== FEATURED WORK ====================== -->
 ## 🏗️ Featured Work
 
-> Government & commercial work is confidential — presented below as case studies without source links.
-
-### 🏛️ Government Enterprise Platforms — *Senior Engineer*
-National-scale visa & document-processing systems.
-- Modernized legacy **WCF services** — resolved connection, binding-quota, and SSL/TLS trust failures under production load
-- Migrated document storage from binary DB columns to **shared-storage architecture** with backward-compatible fallback
-- Hardened systems against **penetration-test findings** (client-side manipulation, information disclosure)
-- Optimized multi-database SQL joins and query deduplication across large datasets
+> Commercial work is confidential — presented below as case studies without source links.
 
 ### 🎉 Bahjah — Wedding Venue SaaS *(Solo Founder & Architect)*
 B2B platform for venue & event management → **[bahjah.sasystem.sa](https://bahjah.sasystem.sa)**
