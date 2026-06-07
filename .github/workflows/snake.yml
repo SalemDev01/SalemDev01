@@ -27,10 +27,13 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-      # خطوة رفع الصور - تم تحديث الأداة رسمياً إلى v4.0.0 لدعم Node 24 بالكامل
+    
+      # خطوة رفع الصور البديلة والمحدثة رسمياً 100% بدون تحذيرات
       - name: Push files to output branch
-        uses: crazy-max/ghaction-github-pages@v4.0.0
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: output # الفرع المستهدف
+          folder: dist # المجلد المراد رفعه
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # إجبار التيرمينال على استخدام النسخة المستقرة الجديدة
