@@ -140,13 +140,13 @@ National-scale visa & document-processing systems.
 - Optimized multi-database SQL joins and query deduplication across large datasets
 
 ### 🎉 Bahjah — Wedding Venue SaaS *(Solo Founder & Architect)*
-B2B platform for venue & event management → **[bahjah.sasystem.sa](https://bahjah.sasystem.sa)**
+B2B platform for venue & event management → 
 - ASP.NET Core 8 · Clean Architecture · DDD · CQRS · PostgreSQL
 - Next.js 15 · TypeScript · Tailwind · Zustand · TanStack Query
 - Finance dashboards, RTL Arabic calendar, automated ARM-VM deployment pipeline
 
 ### 📦 Rishat Tadwin — B2B Digital Services Marketplace *(Solo Architect)*
-Marketplace with print-on-demand → **[rishattadwin.vercel.app](https://rishattadwin.vercel.app)**
+Marketplace with print-on-demand → 
 - **10-state order lifecycle** state machine · double-entry ledger · escrow payments
 - MediatR · PostgreSQL · RabbitMQ · Redis · Elasticsearch · Keycloak · SignalR
 - Saudi-market integrations: Nafath auth · SMS gateway · local payment rails
