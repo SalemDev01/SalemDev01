@@ -3,8 +3,8 @@
 
 <!-- ====================== TYPING SVG ====================== -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=05674B&center=true&vCenter=true&random=false&width=750&lines=Hi+there!+I'm+Salem+(Ghost)+%F0%9F%91%8B;Senior+Full-Stack+.NET+Engineer+%F0%9F%8F%97%EF%B8%8F;Clean+Architecture+%2F+DDD+%2F+CQRS+Practitioner;Solo-Architect+of+Production+SaaS+%F0%9F%9A%80;Building+Enterprise+Systems+in+Saudi+Arabia+%F0%9F%87%B8%F0%9F%87%A6" alt="Typing SVG"/>
+  <a href="https://github.com/SalemDev01">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0A8F6B&center=true&vCenter=true&width=600&lines=Senior+Full-Stack+.NET+Engineer;Clean+Architecture+%7C+DDD+%7C+CQRS;Solo-Architect+of+Production+SaaS;Building+Enterprise+Systems+in+KSA" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -130,7 +130,14 @@ const salem = {
 <!-- ====================== FEATURED WORK ====================== -->
 ## 🏗️ Featured Work
 
-> Commercial work is confidential — presented below as case studies without source links.
+> Government & commercial work is confidential — presented below as case studies without source links.
+
+### 🏛️ Government Enterprise Platforms — *Senior Engineer*
+National-scale visa & document-processing systems.
+- Modernized legacy **WCF services** — resolved connection, binding-quota, and SSL/TLS trust failures under production load
+- Migrated document storage from binary DB columns to **shared-storage architecture** with backward-compatible fallback
+- Hardened systems against **penetration-test findings** (client-side manipulation, information disclosure)
+- Optimized multi-database SQL joins and query deduplication across large datasets
 
 ### 🎉 Bahjah — Wedding Venue SaaS *(Solo Founder & Architect)*
 B2B platform for venue & event management → **[bahjah.sasystem.sa](https://bahjah.sasystem.sa)**
@@ -165,13 +172,23 @@ Marketplace with print-on-demand → **[rishattadwin.vercel.app](https://rishatt
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SalemDev01&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=0A8F6B&icon_color=0A8F6B&text_color=c9d1d9&count_private=true&cache_seconds=86400" alt="Salem's GitHub Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SalemDev01&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=0A8F6B&text_color=c9d1d9&langs_count=8&cache_seconds=86400" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SalemDev01&theme=github_dark" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SalemDev01&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SalemDev01&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SalemDev01&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SalemDev01&theme=github_dark&utcOffset=3" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=SalemDev01&theme=dark&hide_border=true&background=0d1117&ring=0A8F6B&fire=0A8F6B&currStreakLabel=0A8F6B&sideLabels=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
 </p>
+
 ---
 
 <!-- ====================== ACTIVITY GRAPH ====================== -->
