@@ -1,43 +1,16 @@
 name: Generate Snake
-
 on:
-  schedule:
-    # يتم تشغيل الأداة تلقائياً كل 12 ساعة لتحديث الصورة
-    - cron: "0 */12 * * *"
-  
-  # يتيح لك تشغيل الأداة يدوياً في أي وقت
+  schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  
-  # يتم التشغيل تلقائياً عند أي دفع كود على فرع main
-  push:
-    branches:
-    - main
-
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
+    permissions: {contents: write}
     steps:
-      # خطوة جلب الملفات
-      - name: Clone repo
-        uses: actions/checkout@v4
-
-      # خطوة توليد أنيميشن الأفعى (باستخدام أداة Platane الشهيرة)
-      - name: Generate the snake files
-        uses: Platane/snk@v3
-        id: snake-gif
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-      # خطوة رفع الصور الناتجة إلى فرع مخصص ومستقل يسمى output
-      - name: Push files to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with: {target_branch: output, build_dir: dist}
+        env: {GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}}
